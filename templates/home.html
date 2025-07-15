@@ -1,1 +1,52 @@
 {% extends "base.html" %}
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="card shadow-lg border-0 bg-light">
+                <div class="card-body text-center">
+                    <h1 class="display-4 mb-3" style="color:#0d6efd;">
+                        <i class="bi bi-house-door-fill"></i> ยินดีต้อนรับสู่เว็บไซต์ของเรา
+                    </h1>
+                    <p class="lead">เว็บไซต์นี้สร้างขึ้นเพื่อเป็นตัวอย่างการ deploy Django บน Vercel พร้อมการออกแบบที่สวยงามและใช้งานง่าย</p>
+                    <hr>
+                    <div class="row mt-4">
+                        <div class="col-md-4 mb-3">
+                            <div class="card h-100 border-0 bg-white shadow-sm">
+                                <div class="card-body">
+                                    <i class="bi bi-info-circle text-primary" style="font-size:2rem;"></i>
+                                    <h5 class="card-title mt-2">เกี่ยวกับเรา</h5>
+                                    <p class="card-text">เรียนรู้เพิ่มเติมเกี่ยวกับทีมงานและเป้าหมายของเรา</p>
+                                    <a href="/about" class="btn btn-outline-primary btn-sm">อ่านเพิ่มเติม</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card h-100 border-0 bg-white shadow-sm">
+                                <div class="card-body">
+                                    <i class="bi bi-envelope-fill text-success" style="font-size:2rem;"></i>
+                                    <h5 class="card-title mt-2">ติดต่อเรา</h5>
+                                    <p class="card-text">หากมีข้อสงสัยหรือข้อเสนอแนะ ติดต่อเราได้ที่นี่</p>
+                                    <a href="/contact" class="btn btn-outline-success btn-sm">ติดต่อ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card h-100 border-0 bg-white shadow-sm">
+                                <div class="card-body">
+                                    <i class="bi bi-rocket-takeoff-fill text-warning" style="font-size:2rem;"></i>
+                                    <h5 class="card-title mt-2">เริ่มต้นใช้งาน</h5>
+                                    <p class="card-text">สำรวจฟีเจอร์และวิธีการ deploy Django บน Vercel</p>
+                                    <a href="https://vercel.com/docs" target="_blank" class="btn btn-outline-warning btn-sm">ดูเอกสาร</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Bootstrap Icons CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+{% endblock %}

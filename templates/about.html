@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg border-0">
+                <div class="card-body">
+                    <h1 class="card-title text-center mb-4" style="color:#007bff;">
+                        <i class="bi bi-info-circle-fill"></i> เกี่ยวกับเรา
+                    </h1>
+                    <p class="card-text fs-5">ยินดีต้อนรับสู่เว็บไซต์ของเรา!<br>เรามุ่งมั่นที่จะให้บริการที่ดีที่สุดแก่ผู้ใช้ ทีมงานของเราหลงใหลในการพัฒนาเว็บไซต์และมุ่งเน้นการส่งมอบโซลูชันที่มีคุณภาพสูง</p>
+                    <ul class="list-group list-group-flush mb-3">
+                        <li class="list-group-item"><span class="fw-bold text-success"><i class="bi bi-bullseye"></i> พันธกิจ:</span> มุ่งเน้นการสร้างคุณค่าและนวัตกรรม</li>
+                        <li class="list-group-item"><span class="fw-bold text-primary"><i class="bi bi-eye-fill"></i> วิสัยทัศน์:</span> ส่งเสริมผู้ใช้ผ่านเทคโนโลยี</li>
+                        <li class="list-group-item"><span class="fw-bold text-warning"><i class="bi bi-telephone-fill"></i> ติดต่อ:</span> ดูข้อมูลเพิ่มเติมได้ที่หน้าติดต่อเรา</li>
+                    </ul>
+                    <div class="text-center">
+                        <a href="/contact" class="btn btn-outline-primary"><i class="bi bi-envelope-fill"></i> ติดต่อเรา</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Bootstrap Icons CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+{% endblock %}
